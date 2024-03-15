@@ -7,9 +7,9 @@ import Link from "next/link";
 const Home = () => {
   return (
     <>
-      {/* <Count />
-      <RegistrationForm /> */}
-      {/* <ScreenWidth/> */}
+      <Count />
+      <RegistrationForm />
+      <ScreenWidth/>
       <i>
         <Link href='/clientSide'>Client Side</Link>
       </i>
