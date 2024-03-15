@@ -37,7 +37,7 @@ const RegistrationForm = () => {
       return;
     }
 
-    setError('')
+    setError("");
 
     console.log("Username:", userName);
     console.log("Email:", email);
