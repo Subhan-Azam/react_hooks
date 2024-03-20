@@ -6,7 +6,7 @@ export default function Count() {
   return (
     <div className="flex gap-5">
       <p>Count: {count}</p>
-      <button
+      <button className="font-bold text-blue"
         onClick={() => {
           setCount(count + 1);
         }}

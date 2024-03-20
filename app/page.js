@@ -1,19 +1,12 @@
 import Count from "@/(components)/counter/counter";
-import RegistrationForm from "@/(components)/registration_form/registration_form";
-import ScreenWidth from "@/(components)/screenWidth/screenWidth";
-import Link from "next/link";
-
+import Navbar from "@/(components)/navbar/navbar";
 
 const Home = () => {
   return (
-    <>
-      <Count />
-      <RegistrationForm />
-      <ScreenWidth/>
-      <i>
-        <Link href='/clientSide'>Client Side</Link>
-      </i>
-    </>
+    <div>
+      <h1>Home</h1>
+      <Count/>
+    </div>
   );
 };
 
