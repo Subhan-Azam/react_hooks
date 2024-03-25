@@ -3,6 +3,7 @@ import { useState } from "react";
 
 export default function Count() {
   const [count, setCount] = useState(0);
+  
   return (
     <div className="flex gap-5">
       <p>Count: {count}</p>
